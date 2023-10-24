@@ -1,0 +1,386 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.part1{
+    background-image: url("new-smartwatch-balancing-with-cliff.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+}
+.container-fluid{
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.container{
+    
+    margin-top: 200px;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+.container h2{
+    padding: 10px;
+}
+.container h5{
+    padding: 10px;
+}
+.container button{
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#00ff7e,#1f3d90);
+    border-color: #ffffff63;
+}
+.container button a{
+    text-decoration: none;
+    color: #000;
+}
+.part2{
+    background-image: url('13294928_5184015.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.part2 img{
+    border-radius: 20px;
+}
+.about-us{
+    text-align: justify;
+    color: #fff;
+    padding:60px;
+}
+.part2 .fa-solid{
+    color: gold;
+}
+.part3{
+    background-image: url('3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.part3 h2{
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    color:rgb(154,27,176);
+}
+.rating .fa{
+    color:gold;
+}
+.part3 .container2{
+    margin-top: 5px;
+}
+.container2{
+    padding: 50px;
+}
+.cart1, .cart2, .cart3, .cart4{
+    border: solid;
+    border-radius: 20px;
+    border-color:#ffffff2b;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff2b;
+    color: #000;
+}
+.container2 button{
+    padding: 10px;
+    width: 50%;
+    background:linear-gradient(#1f3d90,#00ff7e); 
+    color: #000;
+    border-radius: 10px;
+}
+.part4{
+    background-image: url('pixel-bee-u8isJQ6QjF4-unsplash.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.part4 h3{
+    text-align: center;
+    color: transparent;
+}
+.part4 .content{
+    margin-top: 300px;
+    color: #fff;
+    padding: 60px;
+    text-align: left;
+}
+.content h2{
+    padding: 10px;
+}
+.content h5{
+    padding: 10px;
+}
+.content p{
+    padding: 10px;
+}
+.part5{
+    background-image: url('3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.part5 h2{
+    padding: 15px;
+    text-align: center;
+}
+marquee{
+    padding: 10px;
+}
+marquee img{
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000d1;
+    color:#fff;
+    padding: 50px;
+    align-items: center;
+}
+.information{
+    display: inline-block;
+    justify-content: space-between;
+}
+.details{
+    border: solid;
+    border-color:transparent;
+    margin-left: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+.address{
+    border: solid;
+    border-color:transparent;
+    margin-left: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+.location{
+    margin-right:10% ;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .part1{
+    background-image: url("new-smartwatch-balancing-with-hand.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    height:236vh;
+    width: 236%;
+}
+.container-fluid{
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.container{
+    margin-top: 721px;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+.container h2{
+    padding: 10px;
+}
+.container h5{
+    padding: 10px;
+}
+.container button{
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#00ff7e,#1f3d90);
+    border-color: #ffffff63;
+}
+.container button a{
+    text-decoration: none;
+    color: #000;
+}
+.part2{
+    background-image: url('13294928_5184015.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 236%;
+    height: 1045px;
+}
+.part2{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.part2 img{
+    border-radius: 20px;
+    margin-left: 22%;
+}
+.about-us{
+    text-align: justify;
+    color: #fff;
+    padding:60px;
+}
+.part2 .fa-solid{
+    color: gold;
+}
+.part3{
+    background-image: url('3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 298vh;
+    width: 236%;
+}
+.part3 h2{
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    color:rgb(154,27,176);
+}
+.rating .fa{
+    color:gold;
+}
+.part3 .container2{
+    margin-top: 5px;
+    margin: 87px;
+}
+.container2{
+    padding: 50px;
+}
+.cart1, .cart2, .cart3, .cart4{
+    border: solid;
+    border-radius: 20px;
+    border-color:#ffffff2b;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff2b;
+    color: #000;
+}
+.container2 button{
+    padding: 10px;
+    width: 50%;
+    background:linear-gradient(#1f3d90,#00ff7e); 
+    color: #000;
+    border-radius: 10px;
+}
+.part4{
+    background-image: url('pixel-bee-u8isJQ6QjF4-unsplash.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 236%;
+}
+.part4 h3{
+    text-align: center;
+    color: transparent;
+}
+.part4 .content{
+    margin-top: 300px;
+    color: #fff;
+    padding: 60px;
+    text-align: left;
+}
+.content h2{
+    padding: 10px;
+}
+.content h5{
+    padding: 10px;
+}
+.content p{
+    padding: 10px;
+}
+.part5{
+    background-image: url('3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 236%;
+}
+.part5 h2{
+    padding: 15px;
+    text-align: center;
+}
+marquee{
+    padding: 10px;
+}
+marquee img{
+    padding: 20px;
+}
+.footer{
+    background-color:#000000d1;
+    color:#fff;
+    padding: 50px;
+    align-items: center;
+    width: 236%;
+}
+.information{
+    display: inline-block;
+    justify-content: space-between;
+}
+.details{
+    border: solid;
+    border-color:transparent;
+    margin-left: -8%;
+    padding: 20px;
+    font-size: 20px;
+}
+.address{
+    border: solid;
+    border-color:transparent;
+    margin-left: -8%;
+    padding: 20px;
+    font-size: 20px;
+}
+.location{
+    margin-right:10% ;
+}
+.location iframe{
+    width: 350px;
+    height: 400px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
